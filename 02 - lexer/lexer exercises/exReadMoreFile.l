@@ -11,8 +11,8 @@
 
 
 <<EOF>>								{
-												//printf("End Of File %s, which was input file number %d , has been reached\n", inputFile,currentFile);
-												//printf("Looking ahead for another file..");
+												printf("End Of File %s, which was input file number %d , has been reached\n", inputFile,currentFile);
+												printf("Looking ahead for another file..");
 												if(currentFile == totalInputFile){
 													yyterminate();
 												}else{

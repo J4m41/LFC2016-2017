@@ -13,3 +13,11 @@ int k;
 								printf("%d",k);
 							}
 						}
+
+%%
+
+int main(){
+	yylex();
+	printf("\n");
+	return 0;
+}
