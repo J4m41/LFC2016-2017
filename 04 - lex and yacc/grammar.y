@@ -23,6 +23,7 @@ expr : NUMBER
 void yyerror(char * s){
   fprintf(stderr, "%s\n",s);
 }
+
 int main(void){
   yyparse();
   return 0;

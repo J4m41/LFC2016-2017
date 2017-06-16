@@ -8,7 +8,7 @@
 %%
 
 [0-9]+        {
-          yylval = atoi(yytext);
+        yylval = atoi(yytext);
         return NUMBER;
 
 }
